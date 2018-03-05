@@ -12,10 +12,10 @@ public class MessageService {
 	private Map<Long, Message> messages = DatabaseClass.getMessages();
 
 	public MessageService() {
-		messages.put(1L, new Message(1, "Me", "Too"));
-		messages.put(2L, new Message(2, "You", "Not"));
+		
+	 messages.put(1L, new Message(1, "Me", "Too"));
+	 messages.put(2L, new Message(2, "You", "Not"));
 	}
-	
 	public List<Message> getAllMessages() {
 		/*
 		Message m1 = new Message(1L, "Hello World!", "Koushik");
